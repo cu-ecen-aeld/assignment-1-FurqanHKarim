@@ -7,7 +7,7 @@
 mkdir -p build
 cd build
 cmake ..
-make clean
-make
+ninja clean
+ninja
 cd ..
 ./build/assignment-autotest/assignment-autotest
